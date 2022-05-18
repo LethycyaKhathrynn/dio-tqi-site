@@ -220,8 +220,8 @@ a:hover {
 .card {
     height: 300px;
     width: 400px; 
+    background-image: url(img/espaco.png);
     margin: 3rem 0 0 0; 
-    background-image: url(../img/espaco.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
