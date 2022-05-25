@@ -35,6 +35,27 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px; 
 }
+ 
+/*novo botão*/
+.button {
+    display: inline-block;
+    color: #AB04D9;
+    text-decoration: none;
+}
+
+.button:hover{
+    animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+    0%{
+        box-shadow: 
+        0 0 25px #05DBF2;
+        0 0 50px #8E29F2; 
+    }
+}
+/* novo botão */    
+
 
 .social {
     margin-top: 1rem;
